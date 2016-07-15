@@ -1,14 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
 
 /*==========logo==========*/
 .logo {
-  width: 75px;
-  height: 60px;
+  width: 90px;
 }
 .logo-text {
-  font-family: 'Lobster', cursive;
-  font-size: 45px;
+  font-family: 'Satisfy', cursive;
+  font-size: 38px;
   font-weight: 200px;
   color: #ff827b;
 }
@@ -17,11 +16,23 @@
   color: #61aee6;
 }
 
-/*==========hero==========*/
+.nav-tabs {
+  padding-top: 30px;
+  border: none;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  border: none;
+}
+
+/*==========Hero==========*/
 .jumbotron, .container-fluid {
   padding-left: 0px !important;
   padding-right: 0px !important;
   background-color: transparent;
+}
+.jumbotron {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .hero-img {
   width: 100%;
@@ -41,17 +52,55 @@
   padding-top: 4.5%;
 }
 
-/*==========products==========*/
+/*==========Products==========*/
 .featured-text {
   text-transform: uppercase;
 }
 .thumbnail {
   background-color: #edf1f4;
+  padding: 12px;
+  margin-bottom: 0;
+}
+.thumbnail .caption {
+  padding-bottom: 0;
 }
 /*==========services==========*/
 .adopt-text {
   text-align: center;
+  line-height: 2em;
 }
 .upper-text {
   text-transform: uppercase;
+}
+
+/*===========footer============*/
+.footer {
+  background-color: #231f20;
+  min-height: 90px;
+  margin-top: 50px;
+  color: #bfc0c1;
+}
+.footer a {
+  color: #bfc0c1;
+}
+.footer-logo {
+  width: 110px;
+}
+.footer-cols {
+  border-right: 1px solid #333;
+}
+.footer-cols address {
+  padding-left: 20px;
+}
+.col-md-3 address:hover, .col-md-3 address a:hover {
+  color: #ff827b;
+}
+.inner-footer {
+  padding-top: 25px;
+}
+i {
+  padding-right: 4px;
+}
+.footer .text-center {
+  color: #4c4c4c;
 }

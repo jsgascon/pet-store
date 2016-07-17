@@ -123,7 +123,6 @@ i {
 .name_text {
   font-weight: bold;
   font-size: 25px;
-
 }
 
 /*==========Table==========*/
@@ -135,6 +134,8 @@ i {
 .table td {
   font-size: 18px;
 }
+
+/*==========Google Maps==========*/
 .google_maps {
   padding-left: 50px;
 }

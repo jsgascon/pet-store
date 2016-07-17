@@ -1,5 +1,8 @@
+/*==========Google Fonts==========*/
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+/*==========Home==========*/
 
 /*==========logo==========*/
 .logo {
@@ -15,7 +18,6 @@
   font-size: 20px;
   color: #61aee6;
 }
-
 .nav-tabs {
   padding-top: 30px;
   border: none;
@@ -56,15 +58,13 @@
 .featured-text {
   text-transform: uppercase;
 }
-.thumbnail {
+.thumbnail_products {
   background-color: #edf1f4;
   padding: 12px;
   margin-bottom: 0;
 }
-.thumbnail .caption {
-  padding-bottom: 0;
-}
-/*==========services==========*/
+
+/*==========Services==========*/
 .adopt-text {
   text-align: center;
   line-height: 2em;
@@ -73,7 +73,7 @@
   text-transform: uppercase;
 }
 
-/*===========footer============*/
+/*===========Footer============*/
 .footer {
   background-color: #231f20;
   min-height: 90px;
@@ -103,4 +103,38 @@ i {
 }
 .footer .text-center {
   color: #4c4c4c;
+}
+
+/*==========Contact==========*/
+
+/*==========Profile==========*/
+.thumbnail_contact {
+  border: none;
+  box-shadow: none;
+  width: 200px;
+  height: 200px;
+  margin: 0;
+}
+.profile_description {
+  padding-left: 10px;
+  padding-right: 0;
+  font-size: 16px;
+}
+.name_text {
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+/*==========Table==========*/
+.table th {
+    border-top: none !important;
+    font-size: 18px;
+    font-weight: 700;
+}
+.table td {
+  font-size: 18px;
+}
+.google_maps {
+  padding-left: 50px;
 }
